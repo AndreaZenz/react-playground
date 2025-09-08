@@ -81,11 +81,67 @@ Each phase has **deliverables**, **completion criteria**, and **suggested comman
 
 ### Phase 2 — React Fundamentals
 
-* [ ] Components & Props; conditional rendering; lists & keys.
-* [ ] State with `useState`; effects with `useEffect` (mock fetch); basic `useMemo`/`useCallback`.
-* [ ] Custom hooks (`useLocalStorage`, `useDebounce`).
-* [ ] Controlled vs uncontrolled forms; React Hook Form + Zod.
-* **Done when**: demo page shows examples and unit tests cover base cases.
+## 📚 React Fundamentals Roadmap
+
+- [x] **JSX & Rendering** ---> Shop.tsx
+  - [x] JSX syntax
+  - [x] Rendering elements and components
+  - [x] Conditionals and lists (`map`)
+
+- [x] **Components** ---> Shop.tsx
+  - [x] Functional Components (already in use)
+  - [x] Props: passing data from parent to child
+  - [x] Reusable components (Button, Card, etc.)
+
+- [ ] **State**
+  - [ ] `useState` for managing local state
+  - [ ] Forms and controlled inputs
+  - [ ] Toggles, counters, dark/light mode, etc.
+
+- [ ] **Events**
+  - [ ] Event handling (`onClick`, `onChange`, etc.)
+  - [ ] Custom events on components
+
+- [ ] **Conditional Rendering**
+  - [ ] `&&` and ternary operator to show/hide elements
+  - [ ] Render different components based on state
+
+- [ ] **Lists & Keys**
+  - [ ] Iterating over arrays
+  - [ ] Importance of unique keys
+
+- [ ] **useEffect**
+  - [ ] Side effects
+  - [ ] Data fetching (mock or real API)
+  - [ ] Cleanup functions
+
+- [ ] **useRef**
+  - [ ] Direct DOM access
+  - [ ] Managing focus/inputs
+
+- [ ] **useContext**
+  - [ ] Sharing simple global state without Redux
+  - [ ] Themes, user login, shopping cart, etc.
+
+- [ ] **Custom Hooks**
+  - [ ] Creating reusable logic (`useCounter`, `useFetch`, etc.)
+
+- [ ] **Composition & Children**
+  - [ ] `children` prop
+  - [ ] Component composition
+
+- [ ] **Error Boundaries** (optional advanced)
+
+- [ ] **React Router**
+  - [ ] Navigation and dynamic params
+  - [ ] Nested routes (already set up in layout)
+
+- [ ] **Advanced State Management**
+  - [ ] Redux / Zustand / React Query (later)
+
+- [ ] **Testing Components** (optional for deeper study)
+  - [ ] Jest + React Testing Library
+
 
 ### Phase 3 — Routing & Layout
 
