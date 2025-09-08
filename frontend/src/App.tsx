@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Shop from "./pages/shop/Shop";
 import Flix from "./pages/Flix";
 import Food from "./pages/Food";
+import Cart from "./pages/shop/Cart";
 
 import CartIcon from "./components/CartIcon";
 
@@ -34,6 +35,7 @@ function App() {
           />
           <Route path="/flix" element={<Flix />} />
           <Route path="/food" element={<Food />} />
+          <Route path="/cart" element={<Cart cart={cart} />} />
         </Routes>
         <CartIcon itemCount={cart.length}  />
       </div>
